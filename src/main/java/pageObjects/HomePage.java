@@ -8,9 +8,13 @@ public class HomePage {
     @FindBy(css = ".profile-photo")
     private WebElement profileButton;
 
+    //#####TEST XPath and CSS language injections everywhere for supported libraries
+
     @FindBy(css = "[id = 'Name']")
     private WebElement login;
-//test
+
+    //#####TEST XPath and CSS language injections everywhere for supported libraries
+
     @FindBy(xpath = "//*[@id=\"password\"]")
     private WebElement password;
 

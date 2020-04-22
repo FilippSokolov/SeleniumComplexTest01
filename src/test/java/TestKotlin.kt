@@ -23,6 +23,7 @@ import pageObjects.HomePage
 
 import java.util.concurrent.TimeUnit
 
+//#####TEST JavaScript language injections
 
 class SomeTest {
     @Test

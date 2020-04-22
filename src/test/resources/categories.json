@@ -1,11 +1,13 @@
 [
   {
-
+    "_comment": "#####TEST - Code completion and validation for Allure Framework configuration file: categories.json",
     "name": "Some",
-    "matchedStatuses": ["broken","failed"],
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
     "messageRegex": ".*sdfdsf",
     "traceRegex": ".*NullPointerException"
-
   },
   {
     "name": "sad"

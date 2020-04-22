@@ -27,7 +27,10 @@ class TestJunitKotlin {
         `$`("#res .g").shouldHave(Condition.text("sdf"))
         `$`("#res .g").shouldNotBe()
 
+        //#####TEST - Code completion for HTML attributes, HTML tag names and CSS properties
+
         `$$x`("//div").shouldBe(Condition.cssValue("border-bottom-width", "10px"))
+
 
 
         `$`("#res .g").shouldNotBe(Condition.cssValue("border-bottom-color","10px"))
