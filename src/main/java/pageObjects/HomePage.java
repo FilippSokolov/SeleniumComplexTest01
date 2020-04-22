@@ -10,7 +10,7 @@ public class HomePage {
 
     @FindBy(css = "[id = 'Name']")
     private WebElement login;
-
+//test
     @FindBy(xpath = "//*[@id=\"password\"]")
     private WebElement password;
 
